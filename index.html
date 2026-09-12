@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karam Veer Singh</title>
+<style>
+  :root {
+    --bg-top: #181A1F;
+    --bg-bot: #0F1013;
+    --gold-frame: #B8934F;
+    --gold-bright: #D9B876;
+    --gold-text: #C9A35A;
+    --ivory: #F6F3EA;
+    --grey-light: #C6C2B6;
+    --grey-med: #8A8E97;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--bg-top), var(--bg-bot));
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 24px;
+  }
+  .card {
+    max-width: 420px;
+    width: 100%;
+    border: 1px solid var(--gold-frame);
+    padding: 40px 28px;
+    text-align: center;
+  }
+  h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: var(--ivory);
+    font-size: 28px;
+    margin: 0 0 6px;
+    font-weight: 700;
+  }
+  .title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    color: var(--gold-bright);
+    font-size: 15px;
+    margin: 0 0 4px;
+  }
+  .sub {
+    color: var(--grey-light);
+    font-size: 12px;
+    margin: 0 0 32px;
+    letter-spacing: 0.3px;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 14px 20px;
+    margin-bottom: 14px;
+    border: 1px solid var(--gold-frame);
+    color: var(--ivory);
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    transition: background 0.2s ease;
+  }
+  .btn:hover { background: rgba(184, 147, 79, 0.15); }
+  .btn.primary {
+    background: var(--gold-text);
+    color: #14151A;
+    border-color: var(--gold-text);
+    font-weight: bold;
+  }
+  .btn.primary:hover { background: var(--gold-bright); }
+  .footer {
+    margin-top: 28px;
+    color: var(--grey-med);
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Karam Veer Singh</h1>
+    <p class="title">Project Scientist (Doctoral Candidate)</p>
+    <p class="sub">Thin-Film Deposition &middot; Vacuum Systems &middot; Equipment Integration</p>
+
+    <a class="btn primary" href="https://www.linkedin.com/in/karamveersinghgill" target="_blank" rel="noopener">View LinkedIn Profile</a>
+    <a class="btn" href="./KaramVeerSingh_CV.pdf" target="_blank" rel="noopener">View / Download CV</a>
+
+    <p class="footer">INDIAN INSTITUTE OF TECHNOLOGY BOMBAY</p>
+  </div>
+</body>
+</html>
